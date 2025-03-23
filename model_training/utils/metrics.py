@@ -11,8 +11,6 @@ def compute_metrics(preds, labels):
     - preds: list of predicted tensors
     - labels: list of ground truth tensors
     """
-    preds = torch.cat(preds).cpu().numpy()
-    labels = torch.cat(labels).cpu().numpy()
 
     acc = accuracy_score(labels, preds) * 100
     precision = precision_score(labels, preds, average='macro', zero_division=0) * 100

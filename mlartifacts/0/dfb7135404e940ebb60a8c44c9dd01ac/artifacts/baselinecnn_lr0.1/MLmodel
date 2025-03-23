@@ -1,0 +1,21 @@
+artifact_path: baselinecnn_lr0.1
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.4
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.1.1
+mlflow_version: 2.17.0
+model_size_bytes: 103148344
+model_uuid: 907deceb2de144aabf7fb4bd282d8632
+run_id: dfb7135404e940ebb60a8c44c9dd01ac
+utc_time_created: '2025-03-23 01:05:14.587698'

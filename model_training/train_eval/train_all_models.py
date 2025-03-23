@@ -3,6 +3,9 @@ import mlflow.pytorch
 import torch
 import torch.nn as nn
 import torch.optim as optim
+
+mlflow.set_tracking_uri("http://127.0.0.1:6006") #need to change it for production/deployment
+
 from model_training.utils.dataloader import get_split_loaders
 from model_training.preprocessing.transforms import get_basic_transforms
 from model_training.preprocessing.augmentation import get_train_augmentations
