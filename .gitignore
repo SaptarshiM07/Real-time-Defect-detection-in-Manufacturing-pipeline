@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoint
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MLflow artifacts
+mlruns/
+
+# Output models and logs
+outputs/
+
+# Datasets
+data/
+*.zip
+*.tar.gz
+*.h5
+*.csv
+
+# System files
+.DS_Store
+Thumbs.db

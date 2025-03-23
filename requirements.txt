@@ -1,0 +1,22 @@
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+tqdm
+numpy
+pandas
+
+# MLflow for experiment tracking and model logging
+mlflow>=2.0.0
+
+# Data loading & image preprocessing
+scikit-learn
+matplotlib
+seaborn
+Pillow
+
+# Optional - useful for serving the model later
+fastapi
+uvicorn
+
+# Environment management (optional)
+python-dotenv
